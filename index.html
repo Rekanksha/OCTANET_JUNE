@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development and Design Course</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="#">WebDevDesign</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#contact" id="contact-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Become a Web Development and Design Expert</h2>
+            <p>Join our comprehensive course to master web development and design skills.</p>
+            <a href="#course" class="btn">Get Started</a>
+        </div>
+    </section>
+    
+    <section id="about" class="content">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our mission is to provide top-notch education in web development and design. Our expert instructors are industry professionals with years of experience.</p>
+            <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="About Us" class="fade-in shine-on-hover">
+        </div>
+    </section>
+    
+    <section id="course" class="content">
+        <div class="container">
+            <h2>Course Overview</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>HTML & CSS</h3>
+                    <p>Learn the fundamentals of web development with HTML and CSS.</p>
+                    <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="HTML & CSS" class="zoom-in shine-on-hover">
+                </div>
+                <div class="col">
+                    <h3>JavaScript</h3>
+                    <p>Master JavaScript to create interactive and dynamic websites.</p>
+                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg" alt="JavaScript" class="zoom-in shine-on-hover">
+                </div>
+                <div class="col">
+                    <h3>Responsive Design</h3>
+                    <p>Build websites that look great on all devices with responsive design techniques.</p>
+                    <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg" alt="Responsive Design" class="zoom-in shine-on-hover">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="content hidden">
+        <div class="container contact-form">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WebDevDesign. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
